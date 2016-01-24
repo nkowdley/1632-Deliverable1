@@ -5,9 +5,9 @@ Test Name:
 Description:
 
 Test Setup:
-1)
-2)
-3)
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door
+3) Verify a prompt appears for character input
 
 Test Case:
 1)
