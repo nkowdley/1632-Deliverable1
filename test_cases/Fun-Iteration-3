@@ -1,0 +1,40 @@
+Here is a template for tests
+
+Test Name: FUN-ITERATION 3
+
+Description:
+Test that user is able to enter all commands with each iteration without error.
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door
+3) Verify a prompt appears for character input
+
+Test Case:
+1) Type 'N' and press enter.
+2) Type 'N' and press enter.
+3) Type 'N' and press enter.
+4) Type 'N' and press enter.
+5) Type 'N' and press enter.
+6) Type 'L' and press enter.
+7) Type 'I' and press enter.
+8) Type 'S' and press enter.
+9) Type 'N' and press enter.
+10) Type 'N' and press enter.
+11) Type 'D' and press enter.
+
+Results/Validation
+1) Verify that the game responds with "You see a Funny room.".
+2) Verify that the game responds with "You see a Refinanced room.".
+3) Verify that the game responds with "You see a Dumb room.".
+4) Verify that the game responds with "You see a Bloodthirsty room.".
+5) Verify that the game responds with "You see a Rough room.".
+6) Verify that the game responds with "There might be something here... You found some sweet sugar!".
+7) Verify that the game responds with "YOU HAVE NO COFFEE! YOU HAVE NO CREAM! You have some tasty sugar.".
+8) Verify the game responds with "You see a Bloodthirsty room.".
+9) Verify the game responds with "You see a Rough room.".
+10) Verify that game responds with "You are in a magical land! But you are returned to the beginning!".
+11) Verify the game responds with "You eat the sugar, but without caffeine, you cannot study. You lose! Exiting with error code 1".
+
+Mapped Requirements
+FUN-ITERATION

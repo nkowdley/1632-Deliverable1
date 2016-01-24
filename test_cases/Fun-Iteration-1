@@ -1,0 +1,29 @@
+Here is a template for tests
+
+Test Name: FUN-ITERATION 1
+
+Description:
+Test that user is able to enter all commands with each iteration without error.
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door
+3) Verify a prompt appears for character input
+
+Test Case:
+1) Type 'L' and press enter.
+2) Type 'I' and press enter.
+3) Type 'N' and press enter.
+4) Type 'S' and press enter.
+5) Type 'S' and press enter.
+5) Type 'D' and press enter.
+
+Results/Validation
+1) Verify that the game responds with "There might be something here... You found some creamy cream!".
+2) Verify that the game responds with "YOU HAVE NO COFFEE! You have some fresh cream. YOU HAVE NO SUGAR!".
+3) Verify the game responds with "You see a Funny room.".
+4) Verify the game responds with "You see a Small room.".
+5) Verify the game responds with "You drink the cream, but without caffeine, you cannot study. You lose!".
+
+Mapped Requirements
+FUN-ITERATION
