@@ -1,0 +1,28 @@
+Here is a template for tests
+
+Test Name: FUN-UNIQ-ROOM-FURNISHING 1
+
+Description:
+	Verify that each room has only one unique furnishing upon entering the room.
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door
+3) Verify a prompt appears for character input
+
+Test Case:
+1) Type 'N' and press enter.
+2) Type 'N' and press enter. 
+3) Type 'N' and press enter.
+4) Type 'N' and press enter.
+5) Type 'N' and press enter.
+
+Results/Validation
+1) Take note of the output from the game.
+2) Take note of the new output of the game and compare it to previous outputs. Each output should be unique.
+3) Take note of the new output of the game and compare it to previous outputs. Each output should be unique.
+4) Take note of the new output of the game and compare it to previous outputs. Each output should be unique.
+5) Take note of the new output of the game and compare it to previous outputs. Each output should be unique.
+
+Mapped Requirements
+FUN-UNIQ-ROOM-FURNISHING
