@@ -1,0 +1,29 @@
+Test Name: FUN-LOOK 1
+
+Description:
+The player shall find any items in the room when the player looks and those items will be added to the player's inventory.
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door
+3) Verify a prompt appears for character input
+
+Test Case:
+1)Press 'L' and hit enter
+2)Press 'I' and hit enter
+
+Results/Validation
+
+1) Verify You See The Following Output:
+"There might be something here...
+You found some creamy cream!"
+Verify you are still in the same room as before.
+
+2)Verify You See The Following Output:
+"YOU HAVE NO COFFEE!
+You have some fresh cream.
+YOU HAVE NO SUGAR!"
+Verify you are still in the same room as before.
+
+Mapped Requirements
+FUN-LOOK
