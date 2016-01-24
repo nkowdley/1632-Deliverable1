@@ -3,7 +3,7 @@ Here is a template for tests
 Test Name: Fun Unknown-Command 2
 
 Description:
-Test if the game accepts invalid numerical input from the user.
+Test if the game accepts invalid numerical input from the user when the user is not in the first room.
 
 Test Setup:
 1) Start the game
