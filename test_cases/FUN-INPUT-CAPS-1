@@ -1,0 +1,24 @@
+Test Name: FUN-INPUT-CAPS 1
+
+Description:
+Test if the game accepts lower case and uppercase input for movement
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door
+3) Verify a prompt appears for character input
+
+Test Case:
+1) Press 'n' and hit enter
+2) Press 's' and hit enter
+3) Press 'N' and hit enter
+4) Press 'S' and hit enter
+
+Results/Validation
+1) Verify you now see a Funny room with a Sad record player. Verify the game prompts the user for new input.
+2) Verify you are in a small room with a quaint sofa and magenta door. Verify the game prompts the user for new input.
+3) Verify you now see a Funny room with a Sad record player. Verify the game prompts the user for new input. Verify the game prompts the user for new input.
+4) Verify you are in a small room with a quaint sofa and magenta door. Verify the game prompts the user for new input.
+
+Mapped Requirements
+FUN-INPUT-CAPS
