@@ -1,0 +1,21 @@
+Here is a template for tests
+
+Test Name: Fun-Unknown-Command 3
+
+Description:
+Test if the game rejects multiple character inputs from the user when the first character is a legal move.
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door
+3) Verify a prompt appears for character input
+
+Test Case:
+1) Press 'N$' and hit enter
+
+Results/Validation
+1) Verify the game responds with "What?"
+2) Verify the game prompts the user for new input
+
+Mapped Requirements
+Fun-Unknown-Command
