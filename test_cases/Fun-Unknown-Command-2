@@ -2,18 +2,17 @@ Here is a template for tests
 
 Test Name: Fun Unknown-Command 2
 
-Description: 
- Test if the game accepts invalid input from the user.
+Description:
+Test if the game accepts invalid numerical input from the user.
 
 Test Setup:
 1) Start the game
-2) Verify you are in a small room with a quaint sofa nad magenta door
+2) Verify you are in a small room with a quaint sofa and magenta door
 3) Verify a prompt appears for character input
 
 Test Case:
 1) Press 'N' and hit enter
 2) Press "123" and hit enter
-3) 
 
 Results/Validation
 1) Verify you are inside the North Room.
@@ -22,3 +21,4 @@ Results/Validation
 3) Verify the game prompts the user for new input
 
 Mapped Requirements
+Fun-Unknown-Command

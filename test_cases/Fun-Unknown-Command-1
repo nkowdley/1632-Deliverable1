@@ -2,8 +2,8 @@ Here is a template for tests
 
 Test Name: Fun Unknown-Command 1
 
-Description: 
- Test if the game accepts invalid input from the user.
+Description:
+Test if the game accepts invalid input from the user.
 
 Test Setup:
 1) Start the game
@@ -12,12 +12,10 @@ Test Setup:
 
 Test Case:
 1) Press 'A' and hit enter
-2) 
-3)
 
 Results/Validation
 1) Verify the game responds with "What?"
 2) Verify the game prompts the user for new input
-3)
 
 Mapped Requirements
+Fun-Unknown-Command
