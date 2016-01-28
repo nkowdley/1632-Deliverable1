@@ -1,5 +1,7 @@
 Test Name: FUN-LOOK 1
 
+Result:
+
 Description:
 The player shall find any items in the room when the player hits 'l'
 If there are no items in the room, you cannot find an item
@@ -11,19 +13,21 @@ Test Setup:
 
 Test Case:
 1)Press 'L' and hit enter
-2)Press 'N' and hit enter
-3)Press 'L' and hit enter
 
-Results/Validation
-
-1) Verify You See The Following Output:
+2) Verify You See The Following Output:
 "There might be something here...
 You found some creamy cream!"
-Verify you are still in the same room as before.
 
-2) Verify you now see a Funny room with a Sad record player. Verify the game prompts the user for new input.
+3)Verify you are still in the same room as before.
 
-3)Verify you see the following output
+4) Press 'N' and hit enter
+
+5) Verify you now see a Funny room with a Sad record player. Verify the game prompts the user for new input.
+
+6)Press 'L' and hit enter
+
+Results/Validation
+1)Verify you see the following output
 "You don't see anything out of the ordinary."
 Verify you are still in the same room.
 
