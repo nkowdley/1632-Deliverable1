@@ -2,12 +2,14 @@ Here is a template for tests
 
 Test Name: Fun Unknown-Command 1
 
+Result:
+
 Description:
 Test if the game accepts invalid input from the user.
 
 Test Setup:
 1) Start the game
-2) Verify you are in a small room with a quaint sofa nad magenta door
+2) Verify you are in a small room with a quaint sofa and magenta door
 3) Verify a prompt appears for character input
 
 Test Case:

@@ -1,6 +1,6 @@
-Here is a template for tests
-
 Test Name: FUN-WIN 1
+
+Result:
 
 Description:
 	Test for valid winning conditions
@@ -11,24 +11,17 @@ Test Setup:
 3) Verify a prompt appears for character input
 
 Test Case:
-1) Press 'L' and press enter
-2) Press 'N' and press enter
-3) Press 'N' and press enter
-4) Press 'L' and press enter
-5) Repeat step 2 three times
-6) Press 'L' and press enter
-7) Press 'D' and press enter
+1) Press 'L' and press enter. Verify the game responds with "There might be something here... You found some creamy 	cream!"
+2) Press 'N' and press enter. Verify the game has responded with "You see a Funny room.".
+3) Press 'N' and press enter. Verify the game has responded with "You see a Refinanced room."
+4) Press 'L' and press enter. Verify the game has responded with "There might be something here... You found some  Caffeinated coffee!"
+5) Repeat step 2 three times. Verify the game has responded with "You see a Dumb room.", "You see a BloodThirsty room.", and "You see a Rough room." respectively
+6) Press 'L' and press enter. Verify the game has responded with "There might be something here... You found some   sweet sugar!".
+7) Press 'D' and press enter.
 
 Results/Validation
-1) Verify the game responds with "There might be something here... You found some creamy 	cream!"
-2) Verify the game has responded with "You see a Funny room.".
-3) Verify the game has responded with "You see a Refinanced room."
-4) Verify the game has responded with "There might be something here... You found some  Caffeinated coffee!"
-5) Verify the game has responded with "You see a Dumb room."
-6) Verify the game has responded with "You see a BloodThirsty room."
-7) Verify the game has responded with "You see a Rough room."
-8) Verify the game has responded with "There might be something here... You found some   sweet sugar!".
-9) Verify the game has responded with "You drink the beverage and are ready to study!".
+1) Verify the game has responded with "You drink the beverage and are ready to study!".
+2)Verify the game exits with code 0.
 
 Mapped Requirements
 FUN-WIN

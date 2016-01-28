@@ -1,9 +1,9 @@
-Here is a template for tests
-
 Test Name: FUN-WIN 2
 
+Result:
+
 Description:
-Test for a valid winning condition by satisfiying win conditions in a different order.
+Test for a valid winning condition by satisfying win conditions in a different order.
 
 Test Setup:
 1) Start the game
@@ -11,33 +11,22 @@ Test Setup:
 3) Verify a prompt appears for character input
 
 Test Case:
-1) Press 'N' and press enter.
-2) Press 'N' and press enter.
-3) Press 'L' and press enter.
-4) press 'S' and press enter.
-5) press 'S' and press enter.
-6) press 'L' and press enter.
-7) press 'N' and press enter.
+1) Press 'N' and press enter. Verify the game responds with "You see a Funny room.".
+2) Press 'N' and press enter. Verify the game responds with "You see a Refinanced room.".
+3) Press 'L' and press enter. Verify the game responds with "There might be something here... You found some caffeinated coffee!".
+4) press 'S' and press enter. Verify the game responds with "You see a Funny room.".
+5) press 'S' and press enter. Verify the game responds with "You see a Small room.".
+6) press 'L' and press enter. Verify the game responds with "There might be something here... You found some creamy cream!"
+7) press 'N' and press enter. Verify the game responds with "You see a Funny room.".
+Verify the game responds with "You see a Refinanced room.", "You see a Dumb room.", "You see a Bloodthirsty room.", "You see a Rough room.", respectively.
 8) repeat step 7 four times.
-9) Press 'L' and press enter.
-10) Press 'S' and press enter.
+9) Press 'L' and press enter.  Verify the game responds with "There might be something here... You found some sweet sugar!".
+10) Press 'S' and press enter. Verify the game responds with "You see a Bloodthirsty room.".
 11) press 'D' and press enter.
 
 Results/Validation
-1) Verify the game responds with "You see a Funny room.".
-2) Verify the game responds with "You see a Refinanced room.".
-3) Verify the game responds with "There might be something here... You found some caffeinated coffee!".
-4) Verify the game responds with "You see a Funny room.".
-5) Verify the game responds with "You see a Small room.".
-6) Verify the game responds with "There might be something here... You found some creamy cream!".
-7) Verify the game responds with "You see a Funny room.".
-8) Verify the game responds with "You see a Refiananced room.".
-9) Verify the game responds with "You see a Dumb room.".
-10) Verify the game responds with "You see a Bloodthirsty room.".
-11) Verify the game responds with "You see a Rough room.".
-12) Verify the game responds with "There might be something here... You found some sweet sugar!".
-13) Verify the game responds with "You see a Bloodthirsty room.".
-14) Verify the game responds with "You drink the beverage and are ready to study! You win! Exiting with error code 0!".
+1)Verify the game responds with "You drink the beverage and are ready to study! You win! Exiting with error code 0!".
 
 
 Mapped Requirements
+FUN-WIN

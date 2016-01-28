@@ -1,6 +1,6 @@
-Here is a template for tests
-
 Test Name: Fun-Unknown-Command 3
+
+Result:
 
 Description:
 Test if the game rejects multiple character inputs from the user when the first character is a legal move.

@@ -1,6 +1,6 @@
-Here is a template for tests
-
 Test Name: FUN-UNIQ-ROOM 1
+
+Result:
 
 Description: Test to see if each room has a unique adjective to describe it.
 
@@ -15,9 +15,8 @@ Test Case:
 3) Repeat steps 1 & 2 for the rest of the rooms.
 
 Results/Validation
-1) Each iteration will have a unique adjective descriving the room. 
-2) 
-3)
+1) Each iteration will have a unique adjective describing the room.
+
 
 Mapped Requirements
  FUN-UNIQ-ROOM

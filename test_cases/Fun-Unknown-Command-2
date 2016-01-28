@@ -1,6 +1,6 @@
-Here is a template for tests
-
 Test Name: Fun Unknown-Command 2
+
+Result:
 
 Description:
 Test if the game accepts invalid numerical input from the user when the user is not in the first room.
@@ -12,13 +12,13 @@ Test Setup:
 
 Test Case:
 1) Press 'N' and hit enter
+Verify you are inside the North Room.
+	"You see a Funny room. It has a Sad record player. A Beige door leads North. A Massive door leads South."
 2) Press "123" and hit enter
 
 Results/Validation
-1) Verify you are inside the North Room.
-	"You see a Funny room. It has a Sad record player. A Beige door leads North. A Massive door leads South."
-2) Verify the game responds with "What?"
-3) Verify the game prompts the user for new input
+1) Verify the game responds with "What?"
+2) Verify the game prompts the user for new input
 
 Mapped Requirements
 Fun-Unknown-Command
