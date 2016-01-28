@@ -1,6 +1,6 @@
 Test Name: FUN-UNIQ-ROOM-FURNISHING 1
 
-Result:
+Result: PASS
 
 Description:
 Verify that each room has only one unique furnishing upon entering the room.
