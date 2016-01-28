@@ -2,7 +2,7 @@ Here is a template for tests
 
 Test Name: Fun Unknown-Command 1
 
-Result:
+Result: PASS
 
 Description:
 Test if the game accepts invalid input from the user.

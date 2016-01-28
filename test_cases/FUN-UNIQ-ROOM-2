@@ -1,6 +1,6 @@
 Test Name: FUN-UNIQ-ROOM 1
 
-Result:
+Result: PASS 
 
 Description: Test to see if each room has a unique adjective to describe it.
 
@@ -11,7 +11,7 @@ Test Setup:
 
 Test Case:
 1) Type 'N' and press enter.
-2) Verify that the next room has a unique adjective for the room.
+2) Verify that the next room has a unique adjective for the room that is different from the previous room.
 3) Repeat steps 1 & 2 for the remaining of the rooms.
 4) Type 'S' and press enter.
 5) Verify that the next room has a unique adjective describing the room.

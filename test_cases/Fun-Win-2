@@ -1,6 +1,6 @@
 Test Name: FUN-WIN 2
 
-Result:
+Result: PASS
 
 Description:
 Test for a valid winning condition by satisfying win conditions in a different order.

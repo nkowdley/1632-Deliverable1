@@ -1,6 +1,6 @@
 Test Name: Fun-Unknown-Command 3
 
-Result:
+Result: PASS
 
 Description:
 Test if the game rejects multiple character inputs from the user when the first character is a legal move.
