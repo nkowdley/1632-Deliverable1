@@ -1,0 +1,26 @@
+Test Name: FUN-LOOK 3
+
+Description:
+If there are no items in the room, you cannot find an item, and no items are added to your inventory
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door
+3) Verify a prompt appears for character input
+
+Test Case:
+1)Press 'N' and hit enter
+2)Verify you are in a funny room with a sad record player
+3)Press 'L' and hit enter
+4)You don't see anything out of the ordinary.
+5)Press 'I' and hit enter
+
+Results/Validation
+
+1) Verify You See The Following Output:
+YOU HAVE NO COFFEE!
+You have NO CREAM!
+YOU HAVE NO SUGAR!
+
+Mapped Requirements
+FUN-LOOK
