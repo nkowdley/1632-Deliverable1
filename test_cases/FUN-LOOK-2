@@ -1,6 +1,6 @@
-Test Name: FUN-LOOK 1
+Test Name: FUN-LOOK 2
 
-Result:
+Result: PASS
 
 Description:
 The player shall find any items in the room when the player looks and those items will be added to the player's inventory.

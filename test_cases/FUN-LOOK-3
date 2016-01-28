@@ -1,6 +1,6 @@
 Test Name: FUN-LOOK 3
 
-Result:
+Result: PASS
 
 Description:
 If there are no items in the room, you cannot find an item, and no items are added to your inventory
