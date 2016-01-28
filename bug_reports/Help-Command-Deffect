@@ -1,0 +1,10 @@
+DEFECT REPORT TEMPLATE
+
+Defect Name: Help command deffect
+Summary: Typing in 'H' should be a valid command.
+Relevant Test Case: FUN-HELP-1, FUN-HELP-2
+Reproduction Steps: 
+	1) Start in the last room.
+	2) Type 'N' and press enter.
+Expected Behavior: Should show a list of possible commands and what their effects are.
+Observed Behavior: A message appears stating "What?" meaning the game potentially doesn't recognize the command.

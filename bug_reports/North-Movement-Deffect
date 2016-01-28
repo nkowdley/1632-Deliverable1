@@ -1,0 +1,10 @@
+DEFECT REPORT TEMPLATE
+
+Defect Name: Northern Movement deffect
+Summary: Moving south from the first room results in unexpected results.
+Relevant Test Case: FUN-MOVE-2
+Reproduction Steps: 
+	1) Start in the last room.
+	2) Type 'N' and press enter.
+Expected Behavior: Should be an invalid move
+Observed Behavior: A message appears stating "You are in a magical land! But you are returned to the beginning!" (Note: The player is returned to the beginning)

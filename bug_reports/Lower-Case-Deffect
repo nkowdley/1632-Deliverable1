@@ -1,0 +1,11 @@
+DEFECT REPORT TEMPLATE
+
+Defect Name: Input lower case deffect
+Summary: Typing in 'n','s' should be a valid command and equivalent to its upper case component.
+Relevant Test Case: FUN-INPUT-CAPS-1, FUN-INPUT-CAPS-2
+Reproduction Steps: 
+	1) Start in the first room.
+	2) Type 'n' and press enter.
+	3) Repeat with 's'.
+Expected Behavior: Should acceot the lower case character as valid input and execute the command.
+Observed Behavior: A message appears stating "What?" meaning the game potentially doesn't recognize the command as lower case. (Note: 'd','i','l' are valid inputs.)
