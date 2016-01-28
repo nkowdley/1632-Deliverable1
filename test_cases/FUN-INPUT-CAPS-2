@@ -1,6 +1,6 @@
 Test Name: FUN-INPUT-CAPS 2
 
-Result:
+Result: PASS
 
 Description:
 Test if the game accepts lower case and uppercase input for looking, inventory and drinking
@@ -49,9 +49,9 @@ You drink the cream, but without caffeine, you cannot study.
 You lose!"
 Verify the game exits with code 1.
 
-6)Verify you are in a small room with a quaint sofa and magenta door
 6) Start the Game again
-7) Press 'd' and hit enter
+7)Verify you are in a small room with a quaint sofa and magenta door
+8) Press 'd' and hit enter
 
 Results/Validation
 1)Verify You See The Following Output:
