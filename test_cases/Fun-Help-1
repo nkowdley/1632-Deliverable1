@@ -1,9 +1,7 @@
-Here is a template for tests
-
 Test Name: Fun-Help 1
 
 Description:
-	Upon typing 'H' and pressing enter the user should be shown a listing of 
+	Upon typing 'H' and pressing enter the user should be shown a listing of the instructions, in any room
 
 Test Setup:
 1) Start the game
@@ -17,8 +15,6 @@ Test Case:
 
 Results/Validation
 1) The user should see a list of commands that describe what each does.
-2)
-3)
 
 Mapped Requirements
  FUN-HELP

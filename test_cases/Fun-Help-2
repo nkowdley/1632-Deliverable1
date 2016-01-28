@@ -1,24 +1,19 @@
-Here is a template for tests
-
 Test Name: Fun-Help-2
+ Description:
+ 	Upon typing 'H' and pressing enter the user should be shown a listing of the instructions, in any room
 
-Description:
-	Test to see if the help command is correctly functioning.
+ Test Setup:
+ 1) Start the game
+ 2) Verify you are in a small room with a quaint sofa and magenta door
+ 3) Verify a prompt appears for character input
 
-Test Setup:
-1) Start the game
-2) Verify you are in a small room with a quaint sofa and magenta door
-3) Verify a prompt appears for character input
+ Test Case:
+ 1) Type 'H' and press enter
+ 2) Type 'N' and press enter
+ 3) Type 'H' and press enter
 
-Test Case:
-1) Type 'H' and hit enter.
-2) 
-3)
+ Results/Validation
+ 1) The user should see a list of commands that describe what each does.
 
-Results/Validation
-1) The user should see a list of commands describing what the commands do.
-2)
-3)
-
-Mapped Requirements
- FUN-HELP
+ Mapped Requirements
+  FUN-HELP
