@@ -1,6 +1,6 @@
 Test Name: FUN-MOVE-1
 
-Result:
+Result: PASS
 
 Description:
 	Verify that you can move north or south if there is door to the north or south
