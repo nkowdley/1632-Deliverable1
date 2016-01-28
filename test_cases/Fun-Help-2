@@ -1,6 +1,7 @@
 Test Name: Fun-Help-2
 
 Result: FAIL
+	Fails after typing H. No list of commands are shown.
 
  Description:
  	Upon typing 'H' and pressing enter the user should be shown a listing of the instructions, in any room
