@@ -1,6 +1,6 @@
-Here is a template for tests
-
 Test Name: FUN-ITERATION 2
+
+Result:
 
 Description:
 Test that user is able to enter all commands with each iteration without error.
@@ -12,25 +12,25 @@ Test Setup:
 
 Test Case:
 1) Type 'N' and press enter.
+Verify that the game responds with "You see a Funny room.".
 2) Type 'N' and press enter.
+Verify that the game responds with "You see a Refinanced room.".
 3) Type 'N' and press enter.
+Verify that the game responds with "You see a Dumb room.".
 4) Type 'L' and press enter.
+Verify that the game responds with "You don't see anything out of the ordinary.".
 5) Type 'I' and press enter.
+Verify that the game responds with "YOU HAVE NO COFFEE! YOU HAVE NO CREAM! YOU HAVE NO SUGAR!".
 6) Type 'N' and press enter.
+Verify the game responds with "You see a Bloodthirsty room.".
 7) Type 'S' and press enter.
+Verify the game responds with "You see a Dumb room.".
 8) Type 'S' and press enter.
+Verify that game responds with "You see a Refinanced room.".
 9) Type 'D' and press enter.
 
 Results/Validation
-1) Verify that the game responds with "You see a Funny room.".
-2) Verify that the game responds with "You see a Refinanced room.".
-3) Verify that the game responds with "You see a Dumb room.".
-4) Verify that the game responds with "You don't see anything out of the ordinary.".
-5) Verify that the game responds with "YOU HAVE NO COFFEE! YOU HAVE NO CREAM! YOU HAVE NO SUGAR!".
-6) Verify the game responds with "You see a Bloodthirsty room.".
-7) Verify the game responds with "You see a Dumb room.".
-8) Verify that game responds with "You see a Refinanced room.".
-9) Verify the game responds with "You drink the air, as you have no coffee, sugar, or cream. The air is invigorating, but not invigorating enough. You cannot study. You lose!".
+1) Verify the game responds with "You drink the air, as you have no coffee, sugar, or cream. The air is invigorating, but not invigorating enough. You cannot study. You lose!".
 
 Mapped Requirements
 FUN-ITERATION

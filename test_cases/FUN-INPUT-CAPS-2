@@ -1,5 +1,7 @@
 Test Name: FUN-INPUT-CAPS 2
 
+Result:
+
 Description:
 Test if the game accepts lower case and uppercase input for looking, inventory and drinking
 
@@ -10,48 +12,49 @@ Test Setup:
 
 Test Case:
 1) Press 'i' and hit enter
-2) Press 'l' and hit enter
-3) Press 'I' and hit enter
-4) Press 'L' and hit enter
-5) Press 'D' and hit enter
-6) Start the Game again
-7) Press 'd' and hit enter
-
-Results/Validation
-1) Verify You See The Following Output
+Verify You See The Following Output
 "YOU HAVE NO COFFEE!
 YOU HAVE NO CREAM!
 YOU HAVE NO SUGAR!"
 Verify you are still in the same room as before.
 
-2) Verify You See The Following Output:
+2) Press 'l' and hit enter
+Verify You See The Following Output:
 "There might be something here...
 You found some creamy cream!"
 Verify you are still in the same room as before.
 
-3)Verify You See The Following Output:
+3) Press 'I' and hit enter
+
+Verify You See The Following Output:
 "YOU HAVE NO COFFEE!
 You have some fresh cream.
 YOU HAVE NO SUGAR!"
 Verify you are still in the same room as before.
 
-4) Verify You See The Following Output:
+4) Press 'L' and hit enter
+
+Verify You See The Following Output:
 "There might be something here...
 You found some creamy cream!"
 Verify you are still in the same room as before.
 
-5) Verify You See The Following Output:
+5) Press 'D' and hit enter
+Verify You See The Following Output:
 "YOU HAVE NO COFFEE!
 You have some fresh cream.
 YOU HAVE NO SUGAR!
 
 You drink the cream, but without caffeine, you cannot study.
 You lose!"
-Verify the game exits.
+Verify the game exits with code 1.
 
 6)Verify you are in a small room with a quaint sofa and magenta door
+6) Start the Game again
+7) Press 'd' and hit enter
 
-7)Verify You See The Following Output:
+Results/Validation
+1)Verify You See The Following Output:
 "YOU HAVE NO COFFEE!
 YOU HAVE NO CREAM!
 YOU HAVE NO SUGAR!

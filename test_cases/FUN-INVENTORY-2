@@ -1,5 +1,7 @@
 Test Name: FUN-INVENTORY 2
 
+Result:
+
 Description:
 The Player is notified of their inventory when pressing I
 Verify the Inventory is not updated when the room is empty
@@ -11,37 +13,32 @@ Test Setup:
 
 Test Case:
 1)Press 'I' and hit enter
-2)Press 'L' and hit enter
-3)Press 'N' and hit enter
-4)Press 'I' and hit enter
-5)Press 'L' and hit enter
-6)Press 'I' and hit enter
-
-Results/Validation
-1) Verify You See The Following Output
+Verify You See The Following Output
 "YOU HAVE NO COFFEE!
 YOU HAVE NO CREAM!
 YOU HAVE NO SUGAR!"
 Verify you are still in the same room as before.
-
-2) Verify You See The Following Output:
+2)Press 'L' and hit enter
+Verify You See The Following Output:
 "There might be something here...
 You found some creamy cream!"
 Verify you are still in the same room as before.
-
-3) Verify you now see a Funny room with a Sad record player. Verify the game prompts the user for new input.
-
-4)Verify You See The Following Output:
+3)Press 'N' and hit enter
+Verify you now see a Funny room with a Sad record player. Verify the game prompts the user for new input.
+4)Press 'I' and hit enter
+Verify You See The Following Output:
 "YOU HAVE NO COFFEE!
 You have some fresh cream.
 YOU HAVE NO SUGAR!"
 Verify you are still in the same room as before.
-
-5) Verify you see the following output
+5)Press 'L' and hit enter
+Verify you see the following output
 "You don't see anything out of the ordinary."
 Verify you are still in the same room.
+6)Press 'I' and hit enter
 
-6)Verify You See The Following Output:
+Results/Validation
+1)Verify You See The Following Output:
 "YOU HAVE NO COFFEE!
 You have some fresh cream.
 YOU HAVE NO SUGAR!"

@@ -1,5 +1,7 @@
 Test Name: FUN-INVENTORY 1
 
+Result:
+
 Description:
 The Player is notified of their inventory when pressing I
 Verify the Inventory is Correct
@@ -11,22 +13,20 @@ Test Setup:
 
 Test Case:
 1)Press 'I' and hit enter
-2)Press 'L' and Hit Enter
-3)Press and 'I' and Hit Enter
-
-Results/Validation
-1) Verify You See The Following Output
+Verify You See The Following Output
 "YOU HAVE NO COFFEE!
 YOU HAVE NO CREAM!
 YOU HAVE NO SUGAR!"
 Verify you are still in the same room as before.
-
-2) Verify You See The Following Output:
+2)Press 'L' and Hit Enter
+Verify You See The Following Output:
 "There might be something here...
 You found some creamy cream!"
 Verify you are still in the same room as before.
+3)Press and 'I' and Hit Enter
 
-3)Verify You See The Following Output:
+Results/Validation
+1)Verify You See The Following Output:
 "YOU HAVE NO COFFEE!
 You have some fresh cream.
 YOU HAVE NO SUGAR!
