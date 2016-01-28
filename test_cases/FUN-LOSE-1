@@ -1,0 +1,23 @@
+Test Name: FUN-LOSE-1
+
+Description:
+Verify that if you only have 1 out of 3 items to win, you lose the game
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door
+3) Verify a prompt appears for character input
+
+Test Case:
+1)Press 'L' and hit enter
+2)Verify you found the creamy cream.
+3)Press 'I' and hit enter
+4)Verify that you do not have coffee or sugar, and that you have cream.
+5)Press 'D' and hit enter
+
+Results/Validation:
+1) Verify that you see the output 'You lose!', and that the game exits with code 1.
+
+
+Mapped Requirements
+FUN-LOSE

@@ -1,0 +1,27 @@
+Test Name: FUN-LOSE-2
+
+Description:
+Verify that if you only have 2 out of 3 items to win, you lose the game
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door
+3) Verify a prompt appears for character input
+
+Test Case:
+1)Press 'L' and hit enter
+2)Verify you found the creamy cream.
+3)Press 'N' and hit enter
+4)Press 'N' and hit enter
+5)Verify you are in a refinanced room with a tight pizza.
+6)Press 'L' and hit enter
+7)Verify that You found the caffeinated coffee
+3)Press 'I' and hit enter
+4)Verify that you do not have sugar, and that you have coffee and cream.
+5)Press 'D' and hit enter
+
+Results/Validation:
+1) Verify that you see the output 'You lose!', and that the game exits with code 1.
+
+Mapped Requirements
+FUN-LOSE

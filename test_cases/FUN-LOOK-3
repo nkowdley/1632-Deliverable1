@@ -12,7 +12,7 @@ Test Case:
 1)Press 'N' and hit enter
 2)Verify you are in a funny room with a sad record player
 3)Press 'L' and hit enter
-4)You don't see anything out of the ordinary.
+4)Verify that you get the Output 'You don't see anything out of the ordinary'.
 5)Press 'I' and hit enter
 
 Results/Validation
