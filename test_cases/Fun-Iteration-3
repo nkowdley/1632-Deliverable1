@@ -1,6 +1,6 @@
 Test Name: FUN-ITERATION 3
 
-Result:
+Result: PASS
 
 Description:
 Test that user is able to enter all commands with each iteration without error.
