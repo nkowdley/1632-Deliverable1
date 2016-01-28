@@ -1,0 +1,20 @@
+Test Name: FUN-MOVE-1
+
+Description:
+	Verify that you can move north or south if there is door to the north or south
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door. Verify the magenta door is to the North.
+3) Verify a prompt appears for character input
+
+Test Case:
+1) Type 'N' and press enter.
+2) Verify you are in a funny room with a sad record player. Verify there is a Massive Door that leads to the South.
+3) Type 'S' and press enter.
+
+Results/Validation
+1) Verify you are in a small room with a quaint sofa and magenta door.
+
+Mapped Requirements
+FUN-MOVE

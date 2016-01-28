@@ -1,0 +1,22 @@
+Test Name: FUN-MOVE-2
+
+Description:
+	Verify that you can not move north or south if there is no door to the north or south
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door. Verify the magenta door is to the North.  Verify there is no door to the south
+3) Verify a prompt appears for character input
+
+Test Case:
+1) Type 'S' and press enter.
+2) Verify you have not moved, and are in the same room.
+3) Type 'N' and press enter until you are in the  Rough room.
+4) Verify there is door to the south, and no door to the north
+5)Press 'N' and hit enter
+
+Results/Validation
+1) Verify that you are still in the Rough Room
+
+Mapped Requirements
+FUN-MOVE
