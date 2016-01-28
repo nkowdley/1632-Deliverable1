@@ -1,6 +1,6 @@
 Test Name: FUN-UNIQ-ROOM 1
 
-Result:
+Result: PASS
 
 Description: Test to see if each room has a unique adjective to describe it.
 
