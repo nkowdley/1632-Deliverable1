@@ -1,5 +1,7 @@
 Test Name: FUN-MOVE-2
 
+Result:
+
 Description:
 	Verify that you can not move north or south if there is no door to the north or south
 

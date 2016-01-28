@@ -1,20 +1,20 @@
 Test Name: Fun-Help 1
 
-Description:
-	Upon typing 'H' and pressing enter the user should be shown a listing of the instructions, in any room
+Result:
 
-Test Setup:
-1) Start the game
-2) Verify you are in a small room with a quaint sofa and magenta door
-3) Verify a prompt appears for character input
+ Description:
+ 	Test to see if the help command is correctly functioning.
 
-Test Case:
-1) Type 'H' and press enter
-2) Type 'N' and press enter
-3) Type 'H' and press enter
+ Test Setup:
+ 1) Start the game
+ 2) Verify you are in a small room with a quaint sofa and magenta door
+ 3) Verify a prompt appears for character input
 
-Results/Validation
-1) The user should see a list of commands that describe what each does.
+ Test Case:
+ 1) Type 'H' and hit enter.
 
-Mapped Requirements
- FUN-HELP
+ Results/Validation
+ 1) The user should see a list of commands describing what the commands do.
+
+ Mapped Requirements
+  FUN-HELP

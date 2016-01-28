@@ -1,5 +1,7 @@
 Test Name: FUN-LOSE-1
 
+Result:
+
 Description:
 Verify that if you only have 1 out of 3 items to win, you lose the game
 
