@@ -1,6 +1,6 @@
 Test Name: FUN-INPUT-CAPS 1
 
-Result:
+Result: FAIL
 
 Description:
 Test if the game accepts lower case and uppercase input for movement
