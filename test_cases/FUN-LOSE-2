@@ -1,6 +1,6 @@
 Test Name: FUN-LOSE-2
 
-Result:
+Result: PASS
 
 Description:
 Verify that if you only have 2 out of 3 items to win, you lose the game
