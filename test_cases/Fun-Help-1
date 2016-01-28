@@ -1,6 +1,6 @@
 Test Name: Fun-Help 1
 
-Result:
+Result: FAIL
 
  Description:
  	Test to see if the help command is correctly functioning.

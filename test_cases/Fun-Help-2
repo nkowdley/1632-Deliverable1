@@ -1,6 +1,6 @@
 Test Name: Fun-Help-2
 
-Result:
+Result: FAIL
 
  Description:
  	Upon typing 'H' and pressing enter the user should be shown a listing of the instructions, in any room
