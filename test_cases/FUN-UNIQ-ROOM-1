@@ -1,0 +1,23 @@
+Here is a template for tests
+
+Test Name: FUN-UNIQ-ROOM 1
+
+Description: Test to see if each room has a unique adjective to describe it.
+
+Test Setup:
+1) Start the game
+2) Verify you are in a small room with a quaint sofa and magenta door
+3) Verify a prompt appears for character input
+
+Test Case:
+1) Type 'N' and press enter.
+2) Verify that the next room has a unique adjective for the room.
+3) Repeat steps 1 & 2 for the rest of the rooms.
+
+Results/Validation
+1) Each iteration will have a unique adjective descriving the room. 
+2) 
+3)
+
+Mapped Requirements
+ FUN-UNIQ-ROOM
