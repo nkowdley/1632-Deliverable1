@@ -1,6 +1,7 @@
 Test Name: FUN-MOVE-2
 
-Result: FAIL
+Result: FAIL 
+	Fails when attempting to move north at on the Final Room. It wraps to the beginning.
 
 Description:
 	Verify that you can not move north or south if there is no door to the north or south
